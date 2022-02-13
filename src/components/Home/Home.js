@@ -5,11 +5,14 @@ import LeagueCard from '../LeagueCard/LeagueCard';
 import { useNavigate } from 'react-router';
 import { ContextLeague } from '../../App';
 
-const Home = () => {
+const Home = (props) => {
+
+    window.scrollTo(0, 0)
 
     const [league, setLeague] = useContext(ContextLeague);
 
     const navigate = useNavigate();
+
 
 
     const handleDetails = (id) => {

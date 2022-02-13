@@ -9,6 +9,10 @@ import { faRightLong } from '@fortawesome/free-solid-svg-icons';
 
 const LeagueCard = (props) => {
 
+    window.scrollTo(0, 0)
+
+   
+
     const { strLeague, strSport, idLeague } = props.league;
 
     // console.log(props.league);

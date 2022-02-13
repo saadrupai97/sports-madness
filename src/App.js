@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useEffect, useState, createContext } from 'react';
+import React, { useEffect, useState, createContext} from 'react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,7 +13,6 @@ export const ContextLeague = createContext();
 
 function App() {
 
-  
 
   const [league, setLeague] = useState([])
 
@@ -28,8 +27,8 @@ function App() {
     <Router>
       <ContextLeague.Provider value={[league, setLeague]}>
       <Routes> 
-        <Route exact path="/" element={<Home />}/>
-        <Route path="/league/:id" element={<LeagueDetails />}/>
+        <Route exact path="/" element={<Home/>}/>
+        <Route path="/league/:id" element={<LeagueDetails key={league.idLeague} />}/>
       </Routes>
       </ContextLeague.Provider>
     </Router>
