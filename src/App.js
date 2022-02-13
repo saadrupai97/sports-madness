@@ -13,7 +13,8 @@ export const ContextLeague = createContext();
 
 function App() {
 
-
+  window.scrollTo(0, 0);
+  
   const [league, setLeague] = useState([])
 
   useEffect(() => {

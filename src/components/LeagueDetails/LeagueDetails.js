@@ -18,7 +18,7 @@ const LeagueDetails = () => {
 
     window.scrollTo(0, 0);
 
-    const [league, setLeague, useNavigate] = useContext(ContextLeague);
+    const [league] = useContext(ContextLeague);
 
     const { id } = useParams();
 

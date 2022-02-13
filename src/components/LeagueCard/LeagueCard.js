@@ -9,7 +9,7 @@ import { faRightLong } from '@fortawesome/free-solid-svg-icons';
 
 const LeagueCard = (props) => {
 
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
 
    
 

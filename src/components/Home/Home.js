@@ -9,7 +9,7 @@ const Home = (props) => {
 
     window.scrollTo(0, 0)
 
-    const [league, setLeague] = useContext(ContextLeague);
+    const [league] = useContext(ContextLeague);
 
     const navigate = useNavigate();
 
