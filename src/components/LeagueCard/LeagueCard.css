@@ -1,0 +1,14 @@
+.league-card{
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    width: 5rem;
+    display: grid;
+    place-items: center;
+}
+
+.league-card img{
+    margin-top: 5px;
+}

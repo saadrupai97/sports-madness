@@ -1,0 +1,32 @@
+
+.cover-image-container{
+    width: 100%;
+    position: relative;
+}
+
+.cover-image-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+
+.cover-image-container img{
+    height: 350px;
+    width: 100%;
+}
+
+.main-container{
+    background-color: rgb(11, 11, 61);
+    overflow: hidden;
+}
+
+.team-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    /* margin: 10px 20px; */
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
